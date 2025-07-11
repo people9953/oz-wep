@@ -12,3 +12,7 @@ jobs:
     steps:
       - name: Hello World 출력
         run: echo "Hello World"
+
+      - name: Github Actions 변수 사용하기 2
+        run: echo ${{ secrets.MY_Name }}
+          echo ${{ secrets.MY_HOBBY }}
